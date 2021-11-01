@@ -1,0 +1,12 @@
+{
+  "name": "demo-modules",
+  "list": [
+    { "name": "ax-demo-modules", "dir": "core-module" },
+    { "name": "ax-hello-world", "dir": "hello-world" },
+    { "name": "ax-test-module", "dir": "test-module" }
+  ],
+  "locale": {
+    "list": ["zh_CN", "en_US"],
+    "modules": ["core-module", "hello-world", "test-module"]
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../../../../core-module/src/assets/style/index";
+
+.test_module {
+  background: white;
+
+  > .title {
+    background: blueviolet;
+    font-size: 2rem;
+  }
+
+  .css_demo {
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    background: aqua;
+  }
+}

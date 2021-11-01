@@ -1,0 +1,30 @@
+{
+  "id": "2013878",
+  "name": "demo-modules",
+  "font_family": "i_d_mod",
+  "css_prefix_text": "i_d_mod_",
+  "description": "应用模块模版",
+  "glyphs": [
+    {
+      "icon_id": "9503693",
+      "name": "区",
+      "font_class": "district",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "9503695",
+      "name": "省",
+      "font_class": "province",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "9503697",
+      "name": "市",
+      "font_class": "city",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    }
+  ]
+}

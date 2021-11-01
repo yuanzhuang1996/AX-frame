@@ -1,0 +1,99 @@
+{
+  "name": "@ax/app-demo-modules",
+  "version": "2.0.0-beta.8.0",
+  "author": "LNK-FE",
+  "main": "lib/index.js",
+  "private": false,
+  "license": "MIT",
+  "typings": "types/index.d.ts",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:report": "vue-cli-service build --report",
+    "lint": "vue-cli-service lint",
+    "lint:fix": "eslint --fix ./",
+    "lib": "ax-cli-vue lib",
+    "lib:types": "ax-cli-vue types",
+    "lib:locale": "ax-cli-vue locale",
+    "lib:all": "npm run lib && npm run lib:locale",
+    "unpublish": "npm unpublish --force",
+    "publish": "npm publish",
+    "deploy": "npm run build && npm run lib && npm run publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@192.168.2.30:nncs/front-end/html/vue/app-demo/app-demo-modules-v2.git"
+  },
+  "keywords": [
+    "vue",
+    "模块",
+    "模版"
+  ],
+  "homepage": "https://192.168.2.30/nncs/front-end/html/vue/app-demo/app-demo-modules-v2",
+  "bugs": {
+    "url": "https://192.168.2.30/nncs/front-end/html/vue/app-demo/app-demo-modules-v2/issues"
+  },
+  "dependencies": {
+    "@ax/app-core-api": "^1.11.0",
+    "@ax/app-core-components": "^2.0.0-beta.9.3",
+    "@ax/app-core-framework": "^2.2.1",
+    "@ax/app-core-language": "^1.1.0",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@ax/app-core-style": "^1.0.0",
+    "@ax/app-stage-base": "^2.1.0",
+    "@ax/cli-service-vue": "^1.0.0",
+    "@ax/eslint-config-default": "^1.0.0",
+    "@ax/webpack-loaders": "^1.0.0",
+    "@ax/webpack-plugins": "^1.0.0",
+    "@vue/cli-plugin-babel": "^4.3.1",
+    "@vue/cli-plugin-eslint": "^4.3.1",
+    "@vue/cli-plugin-typescript": "^4.3.1",
+    "@vue/cli-service": "^4.3.1",
+    "@vue/component-compiler-utils": "^3.2.0",
+    "babel-plugin-import": "^1.13.0",
+    "node-sass": "^4.12.0",
+    "postcss-normalize": "^9.0.0",
+    "prettier": "^2.0.4",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.0",
+    "sass-svg": "^1.2.0",
+    "typescript": "^4.0.2",
+    "vue-router": "^3.1.6",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "peerDependencies": {
+    "@ax/app-core-components": "2.x",
+    "@ax/app-core-framework": "2.x",
+    "@ax/app-core-language": "1.x",
+    "core-js": "3.x",
+    "vue": "2.x",
+    "vue-property-decorator": ">=8.0",
+    "vuex": "3.x"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {},
+      "postcss-normalize": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "files": [
+    "dist",
+    "lib",
+    "modules",
+    "src",
+    "types"
+  ],
+  "publishConfig": {
+    "registry": "http://183.3.129.44:31060/"
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "app": "demo-modules",
+    "module": "hello-world",
+    "themesPath": "/assets/themes/"
+}

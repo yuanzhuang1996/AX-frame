@@ -1,0 +1,5 @@
+{
+    "app": "demo-modules",
+    "module": "core-module",
+    "themesPath": "/assets/themes/"
+}
